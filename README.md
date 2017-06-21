@@ -43,4 +43,4 @@ Finally, generate the report:
 go tool cover -html=system.cover -o system.html
 ```
 
-Please read the [report](system.html) here.
+Please read the [report](https://winlinvip.github.io/gocover/system.html#file0) here.
