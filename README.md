@@ -2,15 +2,6 @@
 
 A example for go coverage
 
-## Simple Usage
-
-To get the coverage of a specified package, please run:
-
-```
-go test github.com/winlinvip/gocover/protocol -cover -coverprofile out.cover &&
-go tool cover -html=out.cover
-```
-
 ## Test
 
 Get package:
@@ -53,4 +44,12 @@ go tool cover -html=system.cover -o system.html
 ```
 
 Please read the [report](https://winlinvip.github.io/gocover/system.html#file0) here.
+
+## Simple Usage
+
+To get the coverage of a specified package, please run:
+
+```
+go test github.com/winlinvip/gocover/protocol -cover -coverprofile out.cover &&
+go tool cover -html=out.cover
 
